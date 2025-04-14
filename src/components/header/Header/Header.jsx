@@ -12,7 +12,7 @@ const Header = () => {
         <span className="hamicon">
           <RxHamburgerMenu />
         </span>
-        <img src="../assets/logo.png" alt="Symbol" className="logo-symbol" />
+        <img src="/assets/logo.png" alt="Symbol" className="logo-symbol" />
       </div>
 
       <div className="center-logo">LOGO</div>
