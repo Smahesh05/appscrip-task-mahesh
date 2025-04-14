@@ -64,9 +64,8 @@ const FilterBar = ({ isFilterVisible, toggleFilterVisibility, onSortChange }) =>
               {options.map((option, index) => (
                 <li
                   key={index}
-                  className={`dropdown-item ${
-                    selectedOption === option.toUpperCase() ? "active" : ""
-                  }`}
+                  className={`dropdown-item ${selectedOption === option.toUpperCase() ? "active" : ""
+                    }`}
                   onClick={() => handleSelect(option)}
                 >
                   {option}
