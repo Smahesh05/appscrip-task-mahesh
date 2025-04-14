@@ -1,0 +1,21 @@
+.wrapper {
+  padding: 40px 20px;
+  width: -webkit-fill-available;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    padding: 20px 10px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 168px);
+    justify-content: center;
+  }
+}

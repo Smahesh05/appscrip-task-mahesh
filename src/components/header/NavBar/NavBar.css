@@ -1,0 +1,25 @@
+.nav-bar {
+  display: flex;
+  gap: 60px;
+  padding: 20px 0;
+  font-weight: bold;
+  font-size: 16px;
+  max-width: 656px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-bar {
+    display: none;
+  }
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s ease;
+}
+
+.nav-bar a:hover {
+  color: #d16272;
+}

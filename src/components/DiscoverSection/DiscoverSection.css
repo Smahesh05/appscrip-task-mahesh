@@ -1,0 +1,37 @@
+.discover-section {
+  max-width: 721px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.discover-section h1 {
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #231f20;
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .discover-section h1 {
+    font-size: 24px;
+    line-height: 100%;
+    font-weight: 400;
+  }
+
+  .discover-section p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #252020;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .discover-section p {
+    margin-top: 0;
+    font-size: 22px;
+    line-height: 40px;
+    color: #231f20;
+  }
+}
